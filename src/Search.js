@@ -9,7 +9,7 @@ const handleChange = event => {
     };
 
   return (
-    <div className="App">
+    <div className="search-Button">
       <input
         type="text"
         placeholder="Search"

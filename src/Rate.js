@@ -7,7 +7,7 @@ const Rate = ({setRateSearch,rateSearch}) => {
      setRateSearch(nextValue)
     }
       return (
-          <div>
+          <div className="rate-Button">
            <StarRatingComponent starCount={5} value={rateSearch} onStarClick={onStarClick}/>
           </div>
       )

@@ -17,9 +17,10 @@ function App (props) {
 
     <div className="App">
       <h1>Movie Application</h1>
-      <AddCard    movies={props.movies} addNewmovie={props.addNewmovie}/>,
       <Search movies={props.movies}   searchmovie={props.searchmovie} rateSearch={props.rateSearch}/>,
       <Rate setRateSearch={props.setRateSearch} rateSearch={props.rateSearch} />
+      <AddCard    movies={props.movies} addNewmovie={props.addNewmovie}/>,
+      
       <MovieList movies={props.movies}  searchmovie={props.searchmovie} />,
       
 

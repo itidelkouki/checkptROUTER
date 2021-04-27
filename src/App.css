@@ -32,16 +32,16 @@ font-weight: bold;
 .addBoutton {
   background-color: yellow;
   border: transparent;
-  padding: 10px 10px;
-  margin-left: 10px;
   font-size: 100px;
-  justify-content: center;
-  align-items: center;
   font-weight: bolder;
   color: white;
   border-radius: 10%;
   height: 110px;
   width: 110px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  margin-right: 110px;
+  margin-left: 410px;
 }
 
 .movie-Modal{
@@ -99,3 +99,16 @@ text-align: center;
 text-align: justify;
 
 }
+
+.search-Button
+{
+  float: right;
+  margin-top: auto;
+}
+
+.rate-Button
+{
+  float: right;
+  
+}
+
